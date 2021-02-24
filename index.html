@@ -3,15 +3,97 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=no"
+    />
+    <link rel="stylesheet" href="estilos.css" />
     <title>Calculadora</title>
   </head>
   <body>
-    <div class="container"><div class="col-md-12">Calculadora</div></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 text-center marco">Calculadora</div>
+      </div>
+      <div class="row">
+        <div class="col-md-4 text-center marco">
+          <input type="text" name="display" id="display" disabled />
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="col-md-3 tecla funcion text-center" id="exponenteN">
+            x^y
+          </div>
+          <div class="col-md-3 tecla funcion text-center" id="exponente3">
+            x³
+          </div>
+          <div class="col-md-3 tecla funcion text-center" id="exponente2">
+            x²
+          </div>
+          <div class="col-md-3 tecla funcion text-center" id="division">/</div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="col-md-3 tecla numerica text-center">7</div>
+          <div class="col-md-3 tecla numerica text-center">8</div>
+          <div class="col-md-3 tecla numerica text-center">9</div>
+          <div class="col-md-3 tecla funcion text-center" id="multiplicacion">
+            *
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="col-md-3 tecla numerica text-center">4</div>
+          <div class="col-md-3 tecla numerica text-center">5</div>
+          <div class="col-md-3 tecla numerica text-center">6</div>
+          <div class="col-md-3 tecla funcion text-center" id="resta">-</div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="col-md-3 tecla numerica text-center">1</div>
+          <div class="col-md-3 tecla numerica text-center">2</div>
+          <div class="col-md-3 tecla numerica text-center">3</div>
+          <div class="col-md-3 tecla funcion text-center" id="suma">+</div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="col-md-6 tecla numerica text-center">0</div>
+          <div class="col-md-3 tecla numerica text-center" id="punto">.</div>
+          <div class="col-md-3 tecla funcion text-center" id="resultado">=</div>
+        </div>
+      </div>
+    </div>
   </body>
   <script
     src="https://code.jquery.com/jquery-3.5.1.js"
     integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+    crossorigin="anonymous"
+  ></script>
+  <!-- Latest compiled and minified CSS -->
+  <link
+    rel="stylesheet"
+    href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+    crossorigin="anonymous"
+  />
+
+  <!-- Optional theme -->
+  <link
+    rel="stylesheet"
+    href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
+    integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
+    crossorigin="anonymous"
+  />
+
+  <!-- Latest compiled and minified JavaScript -->
+  <script
+    src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+    integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
     crossorigin="anonymous"
   ></script>
   <script src="/js/funciones.js"></script>
