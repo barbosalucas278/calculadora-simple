@@ -1,5 +1,25 @@
 * {
   margin: 0;
   padding: 0;
+}
+
+.marco {
+  background-color: aquamarine;
+  font-size: x-large;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+}
+.tecla {
+  height: 50px;
+  padding-top: 5%;
+  border-style: solid;
+  border-width: 1px;
+}
+.funcion {
   background-color: cadetblue;
+  font-weight: bold;
+}
+.numerica {
+  background-color: cornflowerblue;
+  font-weight: bold;
 }

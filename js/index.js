@@ -1,3 +1,1 @@
-$(document).ready(function () {
-  alert("Hola Mundo");
-});
+$(document).ready(function () {});
